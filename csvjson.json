@@ -1,0 +1,434 @@
+[
+  {
+    "County": "Shasta",
+    "Population at Risk": 894595,
+    "Cases": 6121,
+    "Crude Rate": 684.22,
+    "Age-adjusted Rate": 493.17,
+    "95% Confidence Interval-Lower Limit": 480.3,
+    "95% Confidence Interval-Upper Limit": 506.32
+  },
+  {
+    "County": "Butte",
+    "Population at Risk": 1126034,
+    "Cases": 6520,
+    "Crude Rate": 579.02,
+    "Age-adjusted Rate": 459.91,
+    "95% Confidence Interval-Lower Limit": 448.32,
+    "95% Confidence Interval-Upper Limit": 471.73
+  },
+  {
+    "County": "Colusa - Glenn - Tehama",
+    "Population at Risk": 563306,
+    "Cases": 3216,
+    "Crude Rate": 570.92,
+    "Age-adjusted Rate": 459.25,
+    "95% Confidence Interval-Lower Limit": 443.08,
+    "95% Confidence Interval-Upper Limit": 475.88
+  },
+  {
+    "County": "Placer",
+    "Population at Risk": 1874926,
+    "Cases": 11224,
+    "Crude Rate": 598.64,
+    "Age-adjusted Rate": 454.11,
+    "95% Confidence Interval-Lower Limit": 445.52,
+    "95% Confidence Interval-Upper Limit": 462.83
+  },
+  {
+    "County": "Marin",
+    "Population at Risk": 1304068,
+    "Cases": 8331,
+    "Crude Rate": 638.85,
+    "Age-adjusted Rate": 437.72,
+    "95% Confidence Interval-Lower Limit": 427.93,
+    "95% Confidence Interval-Upper Limit": 447.69
+  },
+  {
+    "County": "Sierra - Yuba",
+    "Population at Risk": 388184,
+    "Cases": 1710,
+    "Crude Rate": 440.51,
+    "Age-adjusted Rate": 436.41,
+    "95% Confidence Interval-Lower Limit": 415.35,
+    "95% Confidence Interval-Upper Limit": 458.25
+  },
+  {
+    "County": "Lake",
+    "Population at Risk": 320474,
+    "Cases": 2050,
+    "Crude Rate": 639.68,
+    "Age-adjusted Rate": 430.64,
+    "95% Confidence Interval-Lower Limit": 410.93,
+    "95% Confidence Interval-Upper Limit": 451.13
+  },
+  {
+    "County": "San Luis Obispo",
+    "Population at Risk": 1400596,
+    "Cases": 7913,
+    "Crude Rate": 564.97,
+    "Age-adjusted Rate": 429.19,
+    "95% Confidence Interval-Lower Limit": 419.34,
+    "95% Confidence Interval-Upper Limit": 439.22
+  },
+  {
+    "County": "El Dorado",
+    "Population at Risk": 925075,
+    "Cases": 5631,
+    "Crude Rate": 608.71,
+    "Age-adjusted Rate": 428.89,
+    "95% Confidence Interval-Lower Limit": 417.16,
+    "95% Confidence Interval-Upper Limit": 440.9
+  },
+  {
+    "County": "Sacramento",
+    "Population at Risk": 7477001,
+    "Cases": 34120,
+    "Crude Rate": 456.33,
+    "Age-adjusted Rate": 427.75,
+    "95% Confidence Interval-Lower Limit": 423.13,
+    "95% Confidence Interval-Upper Limit": 432.41
+  },
+  {
+    "County": "Santa Barbara",
+    "Population at Risk": 2214981,
+    "Cases": 10281,
+    "Crude Rate": 464.16,
+    "Age-adjusted Rate": 426.45,
+    "95% Confidence Interval-Lower Limit": 418.05,
+    "95% Confidence Interval-Upper Limit": 434.98
+  },
+  {
+    "County": "Solano",
+    "Population at Risk": 2174904,
+    "Cases": 10560,
+    "Crude Rate": 485.54,
+    "Age-adjusted Rate": 424.01,
+    "95% Confidence Interval-Lower Limit": 415.72,
+    "95% Confidence Interval-Upper Limit": 432.42
+  },
+  {
+    "County": "Sonoma",
+    "Population at Risk": 2504716,
+    "Cases": 13839,
+    "Crude Rate": 552.52,
+    "Age-adjusted Rate": 422.02,
+    "95% Confidence Interval-Lower Limit": 414.73,
+    "95% Confidence Interval-Upper Limit": 429.42
+  },
+  {
+    "County": "Napa",
+    "Population at Risk": 705025,
+    "Cases": 3865,
+    "Crude Rate": 548.21,
+    "Age-adjusted Rate": 421.63,
+    "95% Confidence Interval-Lower Limit": 408.08,
+    "95% Confidence Interval-Upper Limit": 435.54
+  },
+  {
+    "County": "Del Norte - Humboldt",
+    "Population at Risk": 814659,
+    "Cases": 4178,
+    "Crude Rate": 512.85,
+    "Age-adjusted Rate": 416.48,
+    "95% Confidence Interval-Lower Limit": 403.42,
+    "95% Confidence Interval-Upper Limit": 429.88
+  },
+  {
+    "County": "Mendocino",
+    "Population at Risk": 437484,
+    "Cases": 2525,
+    "Crude Rate": 577.16,
+    "Age-adjusted Rate": 415.39,
+    "95% Confidence Interval-Lower Limit": 398.33,
+    "95% Confidence Interval-Upper Limit": 433.05
+  },
+  {
+    "County": "Contra Costa",
+    "Population at Risk": 5618392,
+    "Cases": 27017,
+    "Crude Rate": 480.87,
+    "Age-adjusted Rate": 414.45,
+    "95% Confidence Interval-Lower Limit": 409.42,
+    "95% Confidence Interval-Upper Limit": 419.54
+  },
+  {
+    "County": "Santa Cruz",
+    "Population at Risk": 1366316,
+    "Cases": 6442,
+    "Crude Rate": 471.49,
+    "Age-adjusted Rate": 411.47,
+    "95% Confidence Interval-Lower Limit": 401.01,
+    "95% Confidence Interval-Upper Limit": 422.13
+  },
+  {
+    "County": "Alpine - Amador - Calaveras",
+    "Population at Risk": 417288,
+    "Cases": 2932,
+    "Crude Rate": 702.63,
+    "Age-adjusted Rate": 409.7,
+    "95% Confidence Interval-Lower Limit": 393.61,
+    "95% Confidence Interval-Upper Limit": 426.4
+  },
+  {
+    "County": "Ventura",
+    "Population at Risk": 4239168,
+    "Cases": 19524,
+    "Crude Rate": 460.56,
+    "Age-adjusted Rate": 409.53,
+    "95% Confidence Interval-Lower Limit": 403.69,
+    "95% Confidence Interval-Upper Limit": 415.44
+  },
+  {
+    "County": "San Diego",
+    "Population at Risk": 16418326,
+    "Cases": 70380,
+    "Crude Rate": 428.67,
+    "Age-adjusted Rate": 406.86,
+    "95% Confidence Interval-Lower Limit": 403.8,
+    "95% Confidence Interval-Upper Limit": 409.93
+  },
+  {
+    "County": "Stanislaus",
+    "Population at Risk": 2678421,
+    "Cases": 10950,
+    "Crude Rate": 408.82,
+    "Age-adjusted Rate": 406.5,
+    "95% Confidence Interval-Lower Limit": 398.8,
+    "95% Confidence Interval-Upper Limit": 414.32
+  },
+  {
+    "County": "San Mateo",
+    "Population at Risk": 3817251,
+    "Cases": 18112,
+    "Crude Rate": 474.48,
+    "Age-adjusted Rate": 399.79,
+    "95% Confidence Interval-Lower Limit": 393.88,
+    "95% Confidence Interval-Upper Limit": 405.78
+  },
+  {
+    "County": "San Joaquin",
+    "Population at Risk": 3620763,
+    "Cases": 14347,
+    "Crude Rate": 396.24,
+    "Age-adjusted Rate": 399.01,
+    "95% Confidence Interval-Lower Limit": 392.39,
+    "95% Confidence Interval-Upper Limit": 405.72
+  },
+  {
+    "County": "Yolo",
+    "Population at Risk": 1063026,
+    "Cases": 3986,
+    "Crude Rate": 374.97,
+    "Age-adjusted Rate": 398.02,
+    "95% Confidence Interval-Lower Limit": 385.49,
+    "95% Confidence Interval-Upper Limit": 410.85
+  },
+  {
+    "County": "Kern",
+    "Population at Risk": 4393721,
+    "Cases": 15419,
+    "Crude Rate": 350.93,
+    "Age-adjusted Rate": 396.38,
+    "95% Confidence Interval-Lower Limit": 390,
+    "95% Confidence Interval-Upper Limit": 402.83
+  },
+  {
+    "County": "Sutter",
+    "Population at Risk": 477915,
+    "Cases": 2131,
+    "Crude Rate": 445.9,
+    "Age-adjusted Rate": 395.78,
+    "95% Confidence Interval-Lower Limit": 378.91,
+    "95% Confidence Interval-Upper Limit": 413.23
+  },
+  {
+    "County": "Nevada",
+    "Population at Risk": 494188,
+    "Cases": 3256,
+    "Crude Rate": 658.86,
+    "Age-adjusted Rate": 395.36,
+    "95% Confidence Interval-Lower Limit": 380.65,
+    "95% Confidence Interval-Upper Limit": 410.58
+  },
+  {
+    "County": "Orange",
+    "Population at Risk": 15779078,
+    "Cases": 68369,
+    "Crude Rate": 433.29,
+    "Age-adjusted Rate": 394.93,
+    "95% Confidence Interval-Lower Limit": 391.93,
+    "95% Confidence Interval-Upper Limit": 397.94
+  },
+  {
+    "County": "Fresno",
+    "Population at Risk": 4858079,
+    "Cases": 17961,
+    "Crude Rate": 369.71,
+    "Age-adjusted Rate": 393.12,
+    "95% Confidence Interval-Lower Limit": 387.29,
+    "95% Confidence Interval-Upper Limit": 399.02
+  },
+  {
+    "County": "Madera",
+    "Population at Risk": 772201,
+    "Cases": 3121,
+    "Crude Rate": 404.17,
+    "Age-adjusted Rate": 392.65,
+    "95% Confidence Interval-Lower Limit": 378.75,
+    "95% Confidence Interval-Upper Limit": 406.92
+  },
+  {
+    "County": "Mariposa - Tuolumne",
+    "Population at Risk": 357786,
+    "Cases": 2336,
+    "Crude Rate": 652.9,
+    "Age-adjusted Rate": 390.94,
+    "95% Confidence Interval-Lower Limit": 373.99,
+    "95% Confidence Interval-Upper Limit": 408.58
+  },
+  {
+    "County": "Riverside",
+    "Population at Risk": 11775012,
+    "Cases": 48683,
+    "Crude Rate": 413.44,
+    "Age-adjusted Rate": 389.94,
+    "95% Confidence Interval-Lower Limit": 386.45,
+    "95% Confidence Interval-Upper Limit": 393.46
+  },
+  {
+    "County": "San Francisco",
+    "Population at Risk": 4321314,
+    "Cases": 19677,
+    "Crude Rate": 455.35,
+    "Age-adjusted Rate": 388.89,
+    "95% Confidence Interval-Lower Limit": 383.35,
+    "95% Confidence Interval-Upper Limit": 394.49
+  },
+  {
+    "County": "San Bernardino",
+    "Population at Risk": 10606099,
+    "Cases": 38425,
+    "Crude Rate": 362.29,
+    "Age-adjusted Rate": 388.21,
+    "95% Confidence Interval-Lower Limit": 384.24,
+    "95% Confidence Interval-Upper Limit": 392.22
+  },
+  {
+    "County": "Lassen - Modoc - Plumas",
+    "Population at Risk": 296058,
+    "Cases": 1575,
+    "Crude Rate": 531.99,
+    "Age-adjusted Rate": 381.53,
+    "95% Confidence Interval-Lower Limit": 362.09,
+    "95% Confidence Interval-Upper Limit": 401.84
+  },
+  {
+    "County": "Imperial",
+    "Population at Risk": 899784,
+    "Cases": 3329,
+    "Crude Rate": 369.98,
+    "Age-adjusted Rate": 380.48,
+    "95% Confidence Interval-Lower Limit": 367.51,
+    "95% Confidence Interval-Upper Limit": 393.79
+  },
+  {
+    "County": "Monterey",
+    "Population at Risk": 2165842,
+    "Cases": 8281,
+    "Crude Rate": 382.35,
+    "Age-adjusted Rate": 380.19,
+    "95% Confidence Interval-Lower Limit": 371.88,
+    "95% Confidence Interval-Upper Limit": 388.65
+  },
+  {
+    "County": "Alameda",
+    "Population at Risk": 8148075,
+    "Cases": 33194,
+    "Crude Rate": 407.38,
+    "Age-adjusted Rate": 379.16,
+    "95% Confidence Interval-Lower Limit": 375,
+    "95% Confidence Interval-Upper Limit": 383.35
+  },
+  {
+    "County": "Siskiyou - Trinity",
+    "Population at Risk": 282832,
+    "Cases": 1729,
+    "Crude Rate": 611.32,
+    "Age-adjusted Rate": 377.13,
+    "95% Confidence Interval-Lower Limit": 357.92,
+    "95% Confidence Interval-Upper Limit": 397.23
+  },
+  {
+    "County": "San Benito",
+    "Population at Risk": 293353,
+    "Cases": 1130,
+    "Crude Rate": 385.2,
+    "Age-adjusted Rate": 376.5,
+    "95% Confidence Interval-Lower Limit": 354.23,
+    "95% Confidence Interval-Upper Limit": 399.8
+  },
+  {
+    "County": "Merced",
+    "Population at Risk": 1336950,
+    "Cases": 4466,
+    "Crude Rate": 334.04,
+    "Age-adjusted Rate": 373.9,
+    "95% Confidence Interval-Lower Limit": 362.85,
+    "95% Confidence Interval-Upper Limit": 385.21
+  },
+  {
+    "County": "Santa Clara",
+    "Population at Risk": 9556129,
+    "Cases": 37334,
+    "Crude Rate": 390.68,
+    "Age-adjusted Rate": 372.18,
+    "95% Confidence Interval-Lower Limit": 368.36,
+    "95% Confidence Interval-Upper Limit": 376.03
+  },
+  {
+    "County": "Los Angeles",
+    "Population at Risk": 50528612,
+    "Cases": 195830,
+    "Crude Rate": 387.56,
+    "Age-adjusted Rate": 371.36,
+    "95% Confidence Interval-Lower Limit": 369.69,
+    "95% Confidence Interval-Upper Limit": 373.04
+  },
+  {
+    "County": "Kings",
+    "Population at Risk": 750917,
+    "Cases": 2341,
+    "Crude Rate": 311.75,
+    "Age-adjusted Rate": 369.7,
+    "95% Confidence Interval-Lower Limit": 354.58,
+    "95% Confidence Interval-Upper Limit": 385.28
+  },
+  {
+    "County": "Tulare",
+    "Population at Risk": 2294044,
+    "Cases": 7520,
+    "Crude Rate": 327.81,
+    "Age-adjusted Rate": 367.06,
+    "95% Confidence Interval-Lower Limit": 358.67,
+    "95% Confidence Interval-Upper Limit": 375.59
+  },
+  {
+    "County": "Inyo - Mono",
+    "Population at Risk": 161266,
+    "Cases": 795,
+    "Crude Rate": 492.97,
+    "Age-adjusted Rate": 354.37,
+    "95% Confidence Interval-Lower Limit": 329.09,
+    "95% Confidence Interval-Upper Limit": 381.22
+  },
+  {
+    "County": "STATE",
+    "Population at Risk": 194914234,
+    "Cases": 822676,
+    "Crude Rate": 422.07,
+    "Age-adjusted Rate": 393.75,
+    "95% Confidence Interval-Lower Limit": 392.88,
+    "95% Confidence Interval-Upper Limit": 394.62
+  }
+]
