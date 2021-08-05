@@ -1,7 +1,7 @@
 [
-  {"coordinate": 3675, "exon_coverage": 100},
-  {"coordinate": 3706, "exon_coverage": 120},
-  {"coordinate": 3766, "exon_coverage": 130},
-  {"coordinate": 3905, "exon_coverage": 140},
-  {"coordinate": 3935, "exon_coverage": 100}
+  {"key":1, "coordinate": 3675, "exon_coverage": 100},
+  {"key":2, "coordinate": 3706, "exon_coverage": 120},
+  {"key":3, "coordinate": 3766, "exon_coverage": 130},
+  {"key":4, "coordinate": 3905, "exon_coverage": 140},
+  {"key":5, "coordinate": 3935, "exon_coverage": 100}
 ]
