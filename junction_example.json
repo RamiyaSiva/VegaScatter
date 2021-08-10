@@ -1,13 +1,13 @@
 {
 "nodes":
 	[
-	{"name":"49302300","group":1,"index":0},
-	{"name":"49302600","group":1,"index":1},
-	{"name":"49303200","group":1,"index":2},
-	{"name":"49303800","group":1,"index":3},
-	{"name":"49304100","group":1,"index":4},
-	{"name":"49304700","group":1,"index":5},
-	{"name":"49305000","group":1,"index":6}
+	{"name":"49302300","group":1,"index":0,"amount":1},
+	{"name":"49302600","group":1,"index":1,"amount": 0.75},
+	{"name":"49303200","group":1,"index":2,"amount": 0.5},
+	{"name":"49303800","group":1,"index":3,"amount": 0},
+	{"name":"49304100","group":1,"index":4,"amount": 0},
+	{"name":"49304700","group":1,"index":5,"amount": 0.5},
+	{"name":"49305000","group":1,"index":6,"amount": 0.75}
 	],
 "links":
 	[
