@@ -11,8 +11,6 @@
 	],
 "links":
 	[
-	{"source":2,"target":4,"value":1},
-	{"source":1,"target":2,"value":2},
-	{"source":3,"target":4,"value":3}
+	{"source":2,"target":5,"value":1}
 	]
 }
