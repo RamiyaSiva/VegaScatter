@@ -4,8 +4,8 @@
 	{"name":"49302300","group":1,"index":0,"amount":100000000},
 	{"name":"49302600","group":1,"index":1,"amount":7500000000},
 	{"name":"49303200","group":1,"index":2,"amount":5000000000},
-	{"name":"49303800","group":1,"index":3,"amount":0},
-	{"name":"49304100","group":1,"index":4,"amount":0},
+	{"name":"49303800","group":1,"index":3},
+	{"name":"49304100","group":1,"index":4},
 	{"name":"49304700","group":1,"index":5,"amount":5000000000},
 	{"name":"49305000","group":1,"index":6,"amount":750000000}
 	],
