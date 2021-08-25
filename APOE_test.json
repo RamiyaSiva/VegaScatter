@@ -1,104 +1,32 @@
 [
   {
     "chr": "chr19",
-    "start_pos": "44279700",
-    "end_pos": "44279750",
+    "start_pos": 44279700,
+    "end_pos": 44279750,
     "depth": "9"
   },
   {
     "chr": "chr19",
-    "start_pos": "44279750",
-    "end_pos": "44279900",
-    "depth": "8"
+    "start_pos": 44279750,
+    "end_pos": 44279900,
+    "depth": 8
   },
   {
     "chr": "chr19",
-    "start_pos": "44279900",
-    "end_pos": "44280000",
-    "depth": "6"
+    "start_pos": 44279900,
+    "end_pos": 44280000,
+    "depth": 6
   },
   {
     "chr": "chr19",
-    "start_pos": "44280000",
-    "end_pos": "44280100",
-    "depth": "3"
+    "start_pos": 44280000,
+    "end_pos": 44280100,
+    "depth": 3
   },
   {
     "chr": "chr19",
-    "start_pos": "44280100",
-    "end_pos": "44280150",
-    "depth": "5"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44280150",
-    "end_pos": "44280350",
-    "depth": "3"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44280350",
-    "end_pos": "44280400",
-    "depth": "4"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44280400",
-    "end_pos": "44280500",
-    "depth": "2"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44280500",
-    "end_pos": "44280600",
-    "depth": "3"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44280600",
-    "end_pos": "44280650",
-    "depth": "4"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44280650",
-    "end_pos": "44280750",
-    "depth": "1"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44280750",
-    "end_pos": "44280850",
-    "depth": "0"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44280850",
-    "end_pos": "44281000",
-    "depth": "3"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44281000",
-    "end_pos": "44281100",
-    "depth": "0"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44281100",
-    "end_pos": "44281150",
-    "depth": "1"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44281150",
-    "end_pos": "44281250",
-    "depth": "2"
-  },
-  {
-    "chr": "chr19",
-    "start_pos": "44281250",
-    "end_pos": "44281300",
-    "depth": "4"
+    "start_pos": 44280100,
+    "end_pos": 44280150,
+    "depth": 5
   }
 ]
