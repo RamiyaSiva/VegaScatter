@@ -1,0 +1,386 @@
+[
+  {
+    "chr": "chr19",
+    "start_pos": 44901000,
+    "end_pos": 44901050,
+    "depth": 16
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901050,
+    "end_pos": 44901100,
+    "depth": 21
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901100,
+    "end_pos": 44901150,
+    "depth": 18
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901150,
+    "end_pos": 44901200,
+    "depth": 3
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901200,
+    "end_pos": 44901250,
+    "depth": 24
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901250,
+    "end_pos": 44901300,
+    "depth": 22
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901300,
+    "end_pos": 44901350,
+    "depth": 19
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901350,
+    "end_pos": 44901400,
+    "depth": 7
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901400,
+    "end_pos": 44901450,
+    "depth": 6
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901450,
+    "end_pos": 44901500,
+    "depth": 4
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901500,
+    "end_pos": 44901600,
+    "depth": 6
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901600,
+    "end_pos": 44901650,
+    "depth": 5
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901650,
+    "end_pos": 44901700,
+    "depth": 3
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901700,
+    "end_pos": 44901750,
+    "depth": 4
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901750,
+    "end_pos": 44901800,
+    "depth": 8
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901800,
+    "end_pos": 44901850,
+    "depth": 9
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901850,
+    "end_pos": 44901900,
+    "depth": 13
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901900,
+    "end_pos": 44901950,
+    "depth": 10
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44901950,
+    "end_pos": 44902000,
+    "depth": 7
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902000,
+    "end_pos": 44902050,
+    "depth": 4
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902050,
+    "end_pos": 44902100,
+    "depth": 1
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902100,
+    "end_pos": 44902150,
+    "depth": 2
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902150,
+    "end_pos": 44902200,
+    "depth": 1
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902200,
+    "end_pos": 44902300,
+    "depth": 2
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902300,
+    "end_pos": 44902400,
+    "depth": 1
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902400,
+    "end_pos": 44902450,
+    "depth": 0
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902450,
+    "end_pos": 44902550,
+    "depth": 2
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902550,
+    "end_pos": 44902600,
+    "depth": 4
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902600,
+    "end_pos": 44902700,
+    "depth": 6
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902700,
+    "end_pos": 44902750,
+    "depth": 7
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902750,
+    "end_pos": 44902800,
+    "depth": 5
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902800,
+    "end_pos": 44902850,
+    "depth": 3
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902850,
+    "end_pos": 44902900,
+    "depth": 2
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902900,
+    "end_pos": 44902950,
+    "depth": 4
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44902950,
+    "end_pos": 44903000,
+    "depth": 7
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903000,
+    "end_pos": 44903050,
+    "depth": 19
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903050,
+    "end_pos": 44903100,
+    "depth": 20
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903100,
+    "end_pos": 44903150,
+    "depth": 18
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903150,
+    "end_pos": 44903250,
+    "depth": 14
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903250,
+    "end_pos": 44903300,
+    "depth": 16
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903300,
+    "end_pos": 44903350,
+    "depth": 19
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903350,
+    "end_pos": 44903400,
+    "depth": 15
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903400,
+    "end_pos": 44903450,
+    "depth": 16
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903450,
+    "end_pos": 44903500,
+    "depth": 13
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903500,
+    "end_pos": 44903550,
+    "depth": 9
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903550,
+    "end_pos": 44903600,
+    "depth": 13
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903600,
+    "end_pos": 44903700,
+    "depth": 7
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903700,
+    "end_pos": 44903750,
+    "depth": 2
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903750,
+    "end_pos": 44903800,
+    "depth": 4
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903800,
+    "end_pos": 44903900,
+    "depth": 2
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903900,
+    "end_pos": 44903950,
+    "depth": 1
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44903950,
+    "end_pos": 44904050,
+    "depth": 3
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44904050,
+    "end_pos": 44904100,
+    "depth": 5
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44904100,
+    "end_pos": 44904150,
+    "depth": 4
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44904150,
+    "end_pos": 44904200,
+    "depth": 2
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44904200,
+    "end_pos": 44904250,
+    "depth": 3
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44904250,
+    "end_pos": 44904300,
+    "depth": 2
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44904300,
+    "end_pos": 44904350,
+    "depth": 4
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44904350,
+    "end_pos": 44904500,
+    "depth": 3
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44904500,
+    "end_pos": 44904700,
+    "depth": 1
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44904700,
+    "end_pos": 44908550,
+    "depth": 0
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44908550,
+    "end_pos": 44908700,
+    "depth": 2
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44908700,
+    "end_pos": 44914850,
+    "depth": 0
+  },
+  {
+    "chr": "chr19",
+    "start_pos": 44914850,
+    "end_pos": 44914950,
+    "depth": 2
+  }
+]
