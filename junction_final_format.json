@@ -7,7 +7,8 @@
     "chromEnd": 44901207,
     ".": ".",
     "score": 4,
-    "strand": "-"
+    "strand": "-",
+    "sample": "1001"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "chromEnd": 44901207,
     ".": ".",
     "score": 6,
-    "strand": "+"
+    "strand": "+",
+    "sample": "1001"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "chromEnd": 44901387,
     ".": ".",
     "score": 1,
-    "strand": "-"
+    "strand": "-",
+    "sample": "1001"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "chromEnd": 44903029,
     ".": ".",
     "score": 6,
-    "strand": "+"
+    "strand": "+",
+    "sample": "1001"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "chromEnd": 44903029,
     ".": ".",
     "score": 7,
-    "strand": "-"
+    "strand": "-",
+    "sample": "1001"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "chromEnd": 4491763,
     ".": ".",
     "score": 14,
-    "strand": "-"
+    "strand": "-",
+    "sample": "1001"
   },
   {
     "id": 7,
@@ -67,6 +73,7 @@
     "chromEnd": 4491763,
     ".": ".",
     "score": 8,
-    "strand": "+"
+    "strand": "+",
+    "sample": "1001"
   }
 ]
