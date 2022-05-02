@@ -8,7 +8,7 @@
   "data": [
     {
       "name": "table",
-      "url": "https://raw.githubusercontent.com/RamiyaSiva/VegaScatter/main/bar_chart.json"
+      "url": "http://localhost:3000/api/category/:category"
     }
   ],
 
