@@ -170,7 +170,7 @@
   "data": [
     {
       "name": "coverage",
-      "url": "https://raw.githubusercontent.com/RamiyaSiva/VegaScatter/main/bf_apoe.json"
+      "url": "http://localhost:3000/api/coverage/:coverage"
     },
     {
       "name": "viewport",
