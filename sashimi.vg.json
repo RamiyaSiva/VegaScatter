@@ -1,0 +1,358 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.0.json",
+  "autosize": "pad",
+  "resize": true,
+  "padding": 5,
+  "signals": [
+    { "name": "margin", "value": 20 },
+    {
+      "name": "hover",
+      "on": [
+        { "events": "*:mouseover", "encode": "hover" },
+        { "events": "*:mouseout", "encode": "leave" },
+        { "events": "*:mousedown", "encode": "select" },
+        { "events": "*:mouseup", "encode": "release" }
+      ]
+    },
+    {
+      "name": "ycur",
+      "value": null,
+      "on": [
+        { "events": "mousedown, touchstart, touchend", "update": "slice(ydom)" }
+      ]
+    },
+    { "name": "xoffset", "update": "-(height + padding.bottom)" },
+    { "name": "yoffset", "update": "-(width + padding.left)" },
+    { "name": "xrange", "update": "[0, width]" },
+    {
+      "name": "down",
+      "value": null,
+      "on": [
+        { "events": "touchend", "update": "null" },
+        { "events": "mousedown, touchstart", "update": "xy()" }
+      ]
+    },
+    {
+      "name": "xcur",
+      "value": null,
+      "on": [
+        { "events": "mousedown, touchstart, touchend", "update": "slice(xdom)" }
+      ]
+    },
+    {
+      "name": "delta",
+      "value": [0, 0],
+      "on": [
+        {
+          "events": [
+            {
+              "source": "window",
+              "type": "mousemove",
+              "consume": true,
+              "between": [
+                { "type": "mousedown" },
+                { "source": "window", "type": "mouseup" }
+              ]
+            },
+            {
+              "type": "touchmove",
+              "consume": true,
+              "filter": "event.touches.length === 1"
+            }
+          ],
+          "update": "down ? [down[0]-x(), y()-down[1]] : [0,0]"
+        }
+      ]
+    },
+    {
+      "name": "anchor",
+      "value": [0, 0],
+      "on": [
+        {
+          "events": "wheel",
+          "update": "[invert('xscale', x()), invert('sample_y_scale', y())]"
+        },
+        {
+          "events": {
+            "type": "touchstart",
+            "filter": "event.touches.length===2"
+          },
+          "update": "[(xdom[0] + xdom[1]) / 2, (ydom[0] + ydom[1]) / 2]"
+        }
+      ]
+    },
+    {
+      "name": "zoom",
+      "value": 1,
+      "on": [
+        {
+          "events": "wheel!",
+          "force": true,
+          "update": "pow(1.001, event.deltaY * pow(16, event.deltaMode))"
+        },
+        {
+          "events": { "signal": "dist2" },
+          "force": true,
+          "update": "dist1 / dist2"
+        }
+      ]
+    },
+    {
+      "name": "dist1",
+      "value": 0,
+      "on": [
+        {
+          "events": {
+            "type": "touchstart",
+            "filter": "event.touches.length===2"
+          },
+          "update": "pinchDistance(event)"
+        },
+        { "events": { "signal": "dist2" }, "update": "dist2" }
+      ]
+    },
+    {
+      "name": "dist2",
+      "value": 0,
+      "on": [
+        {
+          "events": {
+            "type": "touchmove",
+            "consume": true,
+            "filter": "event.touches.length===2"
+          },
+          "update": "pinchDistance(event)"
+        }
+      ]
+    },
+    {
+      "name": "xdom",
+      "update": "slice(xext)",
+      "react": false,
+      "on": [
+        {
+          "events": { "signal": "delta" },
+          "update": "[xcur[0] + span(xcur) * delta[0] / width, xcur[1] + span(xcur) * delta[0] / width]"
+        },
+        {
+          "events": { "signal": "zoom" },
+          "update": "[anchor[0] + (xdom[0] - anchor[0]) * zoom, anchor[0] + (xdom[1] - anchor[0]) * zoom]"
+        }
+      ]
+    },
+    {
+      "name": "ydom",
+      "update": "slice([0,1])",
+      "on": [
+        {
+          "events": { "signal": "delta" },
+          "update": "[ycur[0] + span(ycur) * delta[1] / height, ycur[1] + span(ycur) * delta[1] / height]"
+        },
+        {
+          "events": { "signal": "zoom" },
+          "update": "[anchor[1] + (ydom[0] - anchor[1]) * zoom, anchor[1] + (ydom[1] - anchor[1]) * zoom]"
+        }
+      ]
+    },
+    {
+      "name": "chartHeight",
+      "value": 50,
+      "bind": { "input": "range", "min": 0, "max": 150, "step": 1 }
+    },
+    { "name": "height", "update": "(chartHeight ) * 2" },
+    {
+      "name": "width",
+      "value": 700,
+      "bind": { "input": "range", "min": 0, "max": 1000, "step": 10 }
+    },
+    { "name": "mywidth", "update": "clamp(50000 / span(xdom), 0.01, 10)" }
+  ],
+  "data": [
+    {
+      "name": "coverage",
+      "url": "https://raw.githubusercontent.com/RamiyaSiva/VegaScatter/main/bf_apoe.json"
+    },
+    {
+      "name": "viewport",
+      "source": "coverage",
+      "transform": [
+        { "type": "extent", "field": "start_pos", "signal": "xext" }
+      ]
+    },
+    {
+      "name": "junctions_source",
+      "url": "https://raw.githubusercontent.com/RamiyaSiva/VegaScatter/main/junction_final_format.json"
+    }
+  ],
+  "scales": [
+    {
+      "name": "bandScale",
+      "type": "band",
+      "range": [{ "signal": "height" }, 0],
+      "round": true,
+      "domain": { "data": "coverage", "field": "sample" }
+    },
+    {
+      "name": "xscale",
+      "zero": false,
+      "reverse": false,
+      "round": true,
+      "type": "linear",
+      "domain": { "signal": "xdom" },
+      "range": "width"
+    }
+  ],
+  "marks": [
+    {
+      "type": "group",
+      "clip": false,
+      "name": "Overall_layout",
+      "encode": {
+        "update": {
+          "width": { "signal": "width" },
+          "height": { "signal": "height" },
+          "tooltip": { "signal": "datum" }
+        }
+      },
+      "scales": [
+        {
+          "name": "coverage_y_scale",
+          "zero": true,
+          "reverse": true,
+          "type": "linear",
+          "domain": { "data": "coverage", "field": "depth" },
+          "range": [{ "signal": "chartHeight" }, 0]
+        }
+      ],
+      "axes": [
+        {
+          "scale": "xscale",
+          "orient": "bottom",
+          "offset": { "value": 0 },
+          "title": "Physical Position",
+          "labels": false
+        },
+        {
+          "scale": "bandScale",
+          "orient": "left",
+          "grid": true,
+          "titlePadding": 10,
+          "labelAlign": "right",
+          "offset": { "value": 25 },
+          "title": "Exon Coverage"
+        }
+      ],
+      "marks": [
+        {
+          "type": "group",
+          "clip": false,
+          "from": { "data": "coverage" },
+          "name": "Depth_Marks",
+          "title": { "text": { "signal": "datum.start_pos" } },
+          "encode": {
+            "update": {
+              "x": { "field": "start_pos", "scale": "xscale" },
+              "x2": { "field": "end_pos", "scale": "xscale" },
+              "y2": { "scale": "bandScale", "field": "sample", "band": 1 },
+              "fill": { "value": "steelblue" },
+              "height": { "scale": "coverage_y_scale", "field": "depth" },
+              "cornerRadius": { "value": 1 },
+              "tooltip": { "signal": "{'Start Position': datum.start_pos}" }
+            }
+          }
+        },
+        {
+          "description": "Junction",
+          "name": "Graph_Junctions",
+          "type": "group",
+          "data": [
+            {
+              "name": "junctions",
+              "source": "junctions_source",
+              "transform": [
+                {
+                  "type": "formula",
+                  "as": "v0",
+                  "expr": "if(datum.strand=='+',scale('xscale',datum.chromStart), scale('xscale',datum.chromEnd))"
+                },
+                {
+                  "type": "formula",
+                  "as": "v1",
+                  "expr": "if(datum.strand=='+',scale('xscale',datum.chromEnd), scale('xscale',datum.chromStart))"
+                },
+                {
+                  "type": "formula",
+                  "as": "v2",
+                  "expr": "scale('bandScale',datum.sample)"
+                },
+                {
+                  "type": "formula",
+                  "as": "junction_length",
+                  "expr": "datum.chromEnd - datum.chromStart"
+                }
+              ]
+            },
+            {
+              "name": "edges",
+              "values": [
+                { "s": 1, "t": 1 },
+                { "s": 2, "t": 2 },
+                { "s": 3, "t": 3 },
+                { "s": 4, "t": 4 },
+                { "s": 5, "t": 5 }
+              ],
+              "transform": [
+                {
+                  "type": "lookup",
+                  "from": "junctions",
+                  "key": "id",
+                  "fields": ["s", "t"],
+                  "as": ["source", "target"]
+                },
+                {
+                  "type": "linkpath",
+                  "sourceX": "source.v0",
+                  "sourceY": "source.v2",
+                  "targetX": "target.v1",
+                  "targetY": "target.v2",
+                  "orient": "horizontal",
+                  "shape": "curve"
+                }
+              ]
+            }
+          ],
+          "encode": {
+            "enter": {
+              "y": {
+                "scale": "bandScale",
+                "field": "sample",
+                "band": 1
+              },
+              "width": { "signal": "width" },
+              "height": { "signal": "chartHeight" },
+              "fill": { "value": "transparent" }
+            }
+          },
+          "marks": [
+            {
+              "type": "path",
+              "from": { "data": "edges" },
+              "encode": {
+                "enter": {
+                  "stroke": { "value": "gray" },
+                  "strokeWidth": { "value": 2 }
+                },
+                "update": {
+                  "path": { "field": "path" },
+                  "tooltip": {
+                    "signal": "{ 'Junction Data' : 'Junction Score: ' + datum.source.score + ',' +' Position: ' + datum.source.chr + ':'+ datum.source.chromStart + '-' + datum.source.chromEnd }"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
