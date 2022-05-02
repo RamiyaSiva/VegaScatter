@@ -75,5 +75,49 @@
     "score": 8,
     "strand": "+",
     "sample": "1001"
+  },
+  {
+    "id": 8,
+    "y": 0,
+    "chr": "chr19",
+    "chromStart": 44901104,
+    "chromEnd": 44901207,
+    ".": ".",
+    "score": 4,
+    "strand": "-",
+    "sample": "1002"
+  },
+  {
+    "id": 9,
+    "y": 0,
+    "chr": "chr19",
+    "chromStart": 44901104,
+    "chromEnd": 44901207,
+    ".": ".",
+    "score": 6,
+    "strand": "+",
+    "sample": "1002"
+  },
+  {
+    "id": 10,
+    "y": 0,
+    "chr": "chr19",
+    "chromStart": 44901310,
+    "chromEnd": 44901387,
+    ".": ".",
+    "score": 1,
+    "strand": "-",
+    "sample": "1002"
+  },
+  {
+    "id": 11,
+    "y": 0,
+    "chr": "chr19",
+    "chromStart": 44901310,
+    "chromEnd": 44903029,
+    ".": ".",
+    "score": 6,
+    "strand": "+",
+    "sample": "1002"
   }
 ]
