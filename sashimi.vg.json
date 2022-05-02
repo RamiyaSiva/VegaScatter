@@ -170,7 +170,7 @@
   "data": [
     {
       "name": "coverage",
-      "url": "http://localhost:3000/api/coverage/:coverage"
+      "url": "https://raw.githubusercontent.com/RamiyaSiva/VegaScatter/main/bf_apoe.json"
     },
     {
       "name": "viewport",
@@ -181,7 +181,7 @@
     },
     {
       "name": "junctions_source",
-      "url": "http://localhost:3000/api/junctions/junctions"
+      "url": "https://raw.githubusercontent.com/RamiyaSiva/VegaScatter/main/junction_final_format.json"
     }
   ],
   "scales": [
